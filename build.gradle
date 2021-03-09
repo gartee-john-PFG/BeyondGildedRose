@@ -9,6 +9,13 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
+    id 'info.solidsoft.pitest' version '1.6.0'  // added for pitest
+}
+
+group 'beyond.gilded.rose' // added for pitest
+
+pitest {
+    junit5PluginVersion = '0.12' // added for pitest
 }
 
 repositories {
