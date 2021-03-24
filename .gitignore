@@ -19,3 +19,6 @@ build
 
 # Approvals
 *.received.txt
+bin
+.settings
+.DS_Store
